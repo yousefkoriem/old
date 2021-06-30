@@ -1,0 +1,23 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: 1fr;
+	grid-gap: 0em 0em;
+}
+
+header {
+	grid-area: 1 / 1 / 2 / 4;
+}
+
+.side-bar {
+	grid-area: 2 / 1 / 4 / 2;
+}
+
+footer {
+	grid-area: 4 / 1 / 5 / 4;
+}
+
+.content {
+	grid-area: 2 / 2 / 4 / 4;
+}
