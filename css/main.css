@@ -1,13 +1,42 @@
+* {
+	font-family: 'Source Serif Pro', serif;
+}
+/* font-family: 'Source Serif Pro', serif;
+	font-weight: 200/300/400/600/700/900*/
 body {
+	background-color: #000044;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-auto-rows: 1fr;
 	grid-gap: 0em 0em;
+	border: 0em;
+	margin: 0em;
+	padding: 0em;
 }
 
 header {
+	background-color: #000022;
+	border: 0.2em solid black;
+	height: min-content;
 	grid-area: 1 / 1 / 2 / 4;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.topbtn {
+	width: 15%;
+	border: 1px solid green;
+	border-radius: 3em;
+	text-align: center;
+	height: min-content;
+}
+
+.topbtn p {
+	font: small-caps bold 20pt 'Source Serif Pro',serif;
+	color: white;
+	text-transform: uppercase;
+	margin: auto;
 }
 
 .side-bar {
