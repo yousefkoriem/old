@@ -5,8 +5,15 @@ h1 {
   text-align: center;
   margin: 0.5em;
 }
+span {
+  transition: .5s ease;
+}
+span:hover {
+  background-color: #ffffffff;
+  color: #000000ff;
+}
 span h2 {
-  
+
 }
 span p {
 
