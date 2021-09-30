@@ -1,4 +1,13 @@
+* {
+  margin: auto;
+}
 h1 {
   text-align: center;
   margin: 0.5em;
+}
+span h2 {
+  
+}
+span p {
+
 }
