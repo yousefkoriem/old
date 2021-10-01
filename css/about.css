@@ -10,6 +10,11 @@ h1 {
   width:max-content;
   border-radius: 0.5em;
   font-size: 40pt;
+  transition: all 0.8s ease;
+}
+h1:hover {
+  background-color: #666;
+  color: #fff;
 }
 .about-paragraph {
   background-color: #fff0;
