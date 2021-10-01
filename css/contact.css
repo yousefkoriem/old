@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 48pt;
+}
+.contact-me {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #040404dd;
+  border-radius: 3em;
+  padding: 2em;
+  margin: 1.5em;
+}
+
+div img {}
