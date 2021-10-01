@@ -3,18 +3,25 @@
 }
 h1 {
   text-align: center;
-  margin: 0.5em;
+  margin: 0.5em auto auto auto;
+  color: white;
+  padding: 0.5em;
+  border: 0.1em solid white;
+  width:max-content;
+  border-radius: 0.5em;
+  font-size: 40pt;
 }
-span {
-  transition: .5s ease;
+.about-paragraph {
+  background-color: #fff0;
+  transition: background 1.5s ease;
 }
-span:hover {
-  background-color: #ffffffff;
-  color: #000000ff;
+.about-paragraph:hover {
+background-color: #ffff;
 }
 span h2 {
 
 }
-span p {
-
+.about-paragraph div {
+  margin: 0.5em;
+  padding: 0.5em;
 }
